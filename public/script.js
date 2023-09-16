@@ -1,10 +1,10 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        // sticky navbar on scroll script
+        // sticky navbar1 on scroll script
         if(this.scrollY > 20){
-            $('.navbar').addClass("sticky");
+            $('.navbar1').addClass("sticky");
         }else{
-            $('.navbar').removeClass("sticky");
+            $('.navbar1').removeClass("sticky");
         }
         
         // scroll-up button show/hide script
@@ -22,14 +22,14 @@ $(document).ready(function(){
         $('html').css("scrollBehavior", "auto");
     });
 
-    $('.navbar .menu li a').click(function(){
+    $('.navbar1 .menu li a').click(function(){
         // applying again smooth scroll on menu items click
         $('html').css("scrollBehavior", "smooth");
     });
 
-    // toggle menu/navbar script
+    // toggle menu/navbar1 script
     $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active");
+        $('.navbar1 .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
