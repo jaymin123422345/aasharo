@@ -193,11 +193,17 @@ section .title{
 }
 
 /* about section styling */
+.about .about-content .left{
+    width: 55%;
+}
 .about .about-content .left img{
     height: 360px;
     width: 360px;
     object-fit: cover;
     border-radius: 200px;
+}
+.about .about-content .right{
+    width: 45%;
 }
 .about .about-content .right .text{
     font-size: 28px;
@@ -417,59 +423,18 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-/* .about .about-content .left{
-    width: 55%;
-}
-.about .about-content .right{
-    width: 45%;
-} */
+
 
 /* responsive media query start */
-@media (min-width: 1920px) {
-    .about .about-content .left{
-        width: 55%;
-    }
-    .about .about-content .right{
-        width: 45%;
-    }
-    }
-@media (max-width: 1920px) {
-.about .about-content .left{
-    width: 30%;
-}
-.about .about-content .right{
-    width: 70%;
-}
-}
-@media (max-width: 1710px) {
-.about .about-content .left{
-    width: 40%;
-}
-.about .about-content .right{
-    width: 60%;
-}
-}
 @media (max-width: 1300px) {
     .home .max-width{
         margin-left: 0px;
-    }
-    .about .about-content .left{
-        width: 55%;
-    }
-    .about .about-content .right{
-        width: 45%;
     }
 }
 @media (max-width: 1200px) {
     .about .about-content .left iframe{
         width: 448px;
         height: 252px;
-    }
-    .about .about-content .left{
-        width: 55%;
-    }
-    .about .about-content .right{
-        width: 45%;
     }
 }
 @media (max-width: 1104px) {
@@ -481,12 +446,6 @@ footer span a:hover{
         height: 350px;
         width: 350px;
         margin: 0;
-    }
-    .about .about-content .left{
-        width: 65%;
-    }
-    .about .about-content .right{
-        width: 35%;
     }
 }
 @media (max-width: 1045px) {
@@ -545,6 +504,8 @@ footer span a:hover{
     }
     .about .about-content .column{
         width: 100%;
+        flex-flow:column;
+        display: flex  !important;
     }
     .about .about-content .left{
         display: flex;
