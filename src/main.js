@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'; // Import your router configuration
 import VueLazyload from 'vue-lazyload'
 import './style.css'
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 // Make BootstrapVue available throughout your project
