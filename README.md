@@ -1,4 +1,4 @@
-# aasharo
+# demo
 
 ## Project setup
 ```

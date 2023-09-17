@@ -1,6 +1,6 @@
 <template>
-  
-  <div class="scroll-up-btn">
+ <div>
+ <div class="scroll-up-btn">
       <i class="fas fa-angle-up"></i>
     </div>
   <nav class="navbar1">
@@ -19,7 +19,6 @@
         </div>
       </div>
     </nav>
-  <div >
   <router-view></router-view>
 </div>
 </template>
@@ -30,16 +29,17 @@ export default {
   name: 'App',
 }
 </script>
+
 <style>
-#app{
-  width:100%;
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
-body{
-  width: 100%;
-}
-html{
-  width: 100%;
-}
+
 a {
   text-decoration: none !important;
 }

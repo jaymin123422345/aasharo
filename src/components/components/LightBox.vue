@@ -36,11 +36,11 @@
             >
               <img
                 v-if="media[select].type !== 'video'"
-                :key="'../assets/images' + media[select].src"
+                :key="media[select].src"
                 v-lazy="{
-                  src: '../assets/images' + media[select].src,
-                  loading: '../assets/images' + media[select].src,
-                  error: '../assets/images' + media[select].src,
+                  src: media[select].src,
+                  loading: media[select].src,
+                  error: media[select].src,
                 }"
                 :srcset="media[select].srcset || ''"
                 class="vue-lb-modal-image"

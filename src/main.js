@@ -1,18 +1,19 @@
-
-import { createApp } from 'vue';
-import App from './App.vue';
+import Vue from 'vue'
+import App from './App.vue'
 import router from './router'; // Import your router configuration
 import VueLazyload from 'vue-lazyload'
 import './style.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
-// import { BootstrapVue } from 'bootstrap-vue';
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+// Make BootstrapVue available throughout your project
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
+Vue.config.productionTip = false
 
-const app = createApp(App);
-// Register BootstrapVue
-// app.use(BootstrapVue);
-// Use Vue Router
-app.use(router);
-app.use(VueLazyload)
-
-app.mount('#app');
+Vue.use(VueLazyload);
+new Vue({
+  router,
+  render: h => h(App),
+}).$mount('#app')

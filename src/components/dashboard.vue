@@ -27,7 +27,7 @@
               Pets.</p>
           </div>
           <div class="column right">
-            <img src="images/cat1.jpg" alt="Gato">
+            <img src="@/assets/images/cat1.jpg" alt="Gato">
           </div>
         </div>
       </div>
