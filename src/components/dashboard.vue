@@ -85,7 +85,7 @@
                 ref="video"
                 width="230"
                 height="400"
-                :autoplay='true'
+                :autoplay='false'
                 controls
               >
                 <source
@@ -97,7 +97,7 @@
                 ref="video"
                 width="230"
                 height="400"
-                :autoplay='true'
+                :autoplay='false'
                 controls
               >
                 <source
@@ -109,7 +109,7 @@
                 ref="video"
                 width="230"
                 height="400"
-                :autoplay='true'
+                :autoplay='false'
                 controls
               >
                 <source
@@ -121,7 +121,7 @@
                 ref="video"
                 width="230"
                 height="400"
-                :autoplay='true'
+                :autoplay='false'
                 controls
               >
                 <source
