@@ -16,18 +16,17 @@
     <!-- skills section start -->
     <section class="skills" id="Sobre">
       <div class="max-width">
-        <h2 class="title">Sobre nós</h2>
+        <h2 class="title">Founder of Aasharo</h2>
         <div class="skills-content">
           <div class="column left">
-            <div class="text">Quem somos nós?</div>
-            <p>A ONG AnimaPet é uma organização que oferece instruções de como criar e adotar um pet. A AnimaPet promove
-              eventos de adoção de pets e arrecadação de doações para serem redirecionadas aos animais que vivem em canis
-              ou nas ruas. O intuito do nosso trabalho é duvidas sobre adoções e doações. Divulgar ONGS e sites que
-              procuram ajudar animais abandonados noticias sobres os Pets. Instruir nossos leitores a como cuidar dos seus
-              Pets.</p>
+            <div class="text">Rohit Patel</div>
+            <p>Rohit Patel is the visionary Founder of Aasharo, a. he conceived the idea for the organization out of a deep sense of commitment to addressing the pressing issues of The impact of healthcare reform on our society.
+            As the Founder, he have played a pivotal role in shaping Aasharo's identity, mission, and core values. Rohit Patel is known for their unwavering dedication to The impact of healthcare reform on our society., and their tireless efforts to make a positive impact are evident in the numerous initiatives and programs initiated by the organization.
+            Rohit Patel's leadership and passion have inspired Aasharo's growth and success, he continue to be a driving force behind the organization, fostering innovation, collaboration, and a commitment to positive change.
+            Please note that you should replace Aasharo, Rohit Patel, and other placeholders with the specific information relevant to the NGO and its chairman/founder. Additionally, you may want to include any notable achievements, awards, or personal qualities that make the chairman or founder stand out.</p>
           </div>
           <div class="column right">
-            <img src="@/assets/images/cat1.jpg" alt="Gato">
+            <img src="@/assets/images/rohit.jpg" alt="Gato">
           </div>
         </div>
       </div>
@@ -66,20 +65,79 @@
     <!-- about section start -->
     <section class="about" id="Adocao">
       <div class="max-width">
-        <h2 class="title">Adoção</h2>
+        <h2 class="title">Unity</h2>
         <div class="about-content">
           <div class="column left">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZjeCpsIqyo" frameborder="0"
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZjeCpsIqyo" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+              allowfullscreen></iframe> -->
+              <!-- <div class="instagram-embed">
+              <blockquote
+                class="instagram-media"
+                data-instgrm-captioned
+                data-instgrm-permalink="https://www.instagram.com/tv/COYXYzqgLdj/?utm_source=ig_embed&utm_campaign=loading"
+                data-instgrm-version="14"
+                style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"
+              >
+              </blockquote>
+            </div> -->
+              <video
+                ref="video"
+                width="230"
+                height="400"
+                :autoplay='true'
+                controls
+              >
+                <source
+                  src="@/assets/images/dashboardVideo.mp4"
+                  type="video/mp4"
+                >
+              </video>
+              <video
+                ref="video"
+                width="230"
+                height="400"
+                :autoplay='true'
+                controls
+              >
+                <source
+                  src="@/assets/images/dashboardVideo1.mp4"
+                  type="video/mp4"
+                >
+              </video>
+              <video
+                ref="video"
+                width="230"
+                height="400"
+                :autoplay='true'
+                controls
+              >
+                <source
+                  src="@/assets/images/dashboardVideo2.mp4"
+                  type="video/mp4"
+                >
+              </video>
+              <video
+                ref="video"
+                width="230"
+                height="400"
+                :autoplay='true'
+                controls
+              >
+                <source
+                  src="@/assets/images/dashboardVideo3.mp4"
+                  type="video/mp4"
+                >
+              </video>
           </div>
           <div class="column right">
-            <div class="text">Por que adotar um pet?</div>
-            <p>Se você deseja adotar um pet e contribuir com nosso trabalho de continuar resgatando animais. Por favor
-              marque um visita na nossa instituição, tanto para adotar ou mesmo fazer carinho nos animais entre em contato
-              por onde preferir. Na maior parte das vezes, resgatamos animais que foram abandonados ou sofreram
-              maus-tratos. Portanto, eles serão muito mais carinhosos com seus donos, desenvolvendo um grande senso de
-              fidelidade e gratidão. Agradecemos dês de já.</p>
+            <div class="text">COVID-19</div>
+            <p>
+            During the challenging times of the COVID-19 pandemic, the Aasharo Sevakiy Sansthan group emerged as a beacon of hope and compassion in our community. This dedicated group of individuals selflessly offered a wide range of free services to those in need, embodying the true spirit of altruism.
+            Aasharo Sevakiy Sansthan recognized the profound impact of the pandemic on people's lives, and they stepped up with unwavering commitment. One of their most remarkable contributions was the provision of free essential services to those who were most vulnerable. They distributed food packages, essential supplies, and hygiene kits to families facing financial hardships, ensuring that no one went to bed hungry or without the necessary resources to protect themselves.
+            Moreover, the group extended its support to frontline healthcare workers by providing them with personal protective equipment (PPE) and arranging meals to keep their spirits high during long shifts. They also organized virtual mental health sessions to help individuals cope with the stress and anxiety brought about by the pandemic.
+            The Aasharo Sevakiy Sansthan group's dedication to serving their community during the COVID-19 crisis exemplifies the power of collective action and compassion. Their selfless efforts have left an indelible mark, reminding us all of the importance of solidarity and kindness in times of adversity.
+            </p>
           </div>
         </div>
       </div>
